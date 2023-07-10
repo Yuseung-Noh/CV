@@ -8685,7 +8685,18 @@
     color: #aab4c3;
     font-size: 0.875rem;
   }
+
+  .resume-pub-icon {
+    left: 0;
+    top: 4px;
+    color: #aab4c3;
+  }
   
+  .resume-pub-name {
+    font-weight: bold;
+    color: #434E5E;
+  }
+
   .resume-award-icon {
     left: 0;
     top: 4px;
@@ -8701,6 +8712,17 @@
     font-size: 0.875rem;
   }
   
+  .resume-media-icon {
+    left: 0;
+    top: 4px;
+    color: #aab4c3;
+  }
+  
+  .resume-media-name {
+    font-weight: bold;
+    color: #434E5E;
+  }
+
   .resume-lang-name {
     color: #434E5E;
   }
