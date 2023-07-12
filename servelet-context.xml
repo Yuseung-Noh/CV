@@ -1,2 +1,0 @@
-<resources mapping="/css/**" location="/res/css/"/>
-<resources mapping="/img/**" location="/res/img/"/>
