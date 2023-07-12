@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        var type=navigator.appName
+        if (type=="Netscape")
+            var lang = navigator.language
+        else
+            var lang = navigator.userLanguage
+        
+        // 국가코드에서 앞 2글자만 자름
+        var lang = lang.substr(0,2)
+        
+        // 영어인 경우
+        if (lang == "ko")
+            window.location.replace('./ko/index.html')
+        else
+            window.location.replace('./en/index.html')
+    </script>
+</head>
+
+</html>
