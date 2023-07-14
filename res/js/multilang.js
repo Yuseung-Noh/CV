@@ -1,11 +1,13 @@
 // 언어별 JSON 파일 (간략화)
 const lang = {
     en: {
+        name: "Noh, Yuseung",
         title: "Hello.",
         content: "This is a content area",
         now_sys_lang: "System locale"
     },
     ko: {
+        name: "노유승",
         title: "안녕하세요.",
         content: "여기는 컨텐츠 구역입니다.",
         now_sys_lang: "시스템 로캘"
