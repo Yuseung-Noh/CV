@@ -24,10 +24,6 @@ function init(localeStr) {
     document.getElementById("locale").textContent = localeStr
 }
 
-// 초기 작업
-const currentLang = getLanguage()
-init(currentLang)
-render(currentLang.substr(0, 2))
 
 // 언어별 렌더링
 function render(locale) {
@@ -37,6 +33,11 @@ function render(locale) {
         el.textContent = lang[locale][code]
     })
 }
+
+// 초기 작업
+const currentLang = getLanguage()
+init(currentLang)
+render(currentLang.substr(0, 2))
 
 // 버튼 이벤트
 document.getElementById("btn-en").addEventListener("click", e => {
